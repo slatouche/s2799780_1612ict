@@ -1,0 +1,5 @@
+<template name="Lab1">
+  
+  <p>This is Lab 1</p>
+  
+</template>

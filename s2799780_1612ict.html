@@ -1,0 +1,31 @@
+<head>
+  <title>s2799780_1612ict</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> increase}}
+  {{> decrease}}
+  {{> count}}
+  
+  {{> show}}
+  <div id="display"></div>
+  
+</body>
+
+<template name="increase">
+  <button>Increase</button>
+</template>
+
+<template name="decrease">
+  <button>Decrease</button>
+</template>
+
+<template name="count">
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="show">
+  <button>Show</button>
+</template>
